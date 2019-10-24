@@ -26,6 +26,7 @@ RUN apt-get install -y \
     php7.3-curl \
     php7.3-soap \
     php7.3-gmp \
+    php7.3-bcmath \
     composer
 
 # mysql
