@@ -9,6 +9,8 @@ This is a [docker container](https://cloud.docker.com/u/kirschbaumdevelopment/re
 | 7.3 | [🔗](https://github.com/kirschbaum-development/laravel-test-runner-container/blob/master/7.3) |
 | 7.2 | [🔗](https://github.com/kirschbaum-development/laravel-test-runner-container/blob/master/7.2) |
 
+You may want to check [this blogpost](TODO) on how to use this container to run your Laravel tests with Github Actions.
+
 ## Issues
 
 If you have any issues running your tests with this container, please open an issue or send a pull request.

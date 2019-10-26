@@ -1,8 +1,8 @@
 # Laravel Test Runner - PHP 7.2
 
-...
+Docker Container with PHP 7.2 and extensions to be compatible with most Laravel applications. Also installed on this container we have Composer and NodeJS/NPM/Yarn.
 
-## Building the image
+## Building and pushing the image
 
 **Build**:
 
