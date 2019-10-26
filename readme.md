@@ -4,26 +4,14 @@
 
 This is a [docker container](https://cloud.docker.com/u/kirschbaumdevelopment/repository/docker/kirschbaumdevelopment/laravel-test-runner) for running Laravel tests in Github actions.
 
-## Building the image
+| PHP version | Link |
+| ----------- | ---- |
+| 7.3 | [🔗](https://github.com/kirschbaum-development/laravel-test-runner-container/blob/master/7.3) |
+| 7.2 | [🔗](https://github.com/kirschbaum-development/laravel-test-runner-container/blob/master/7.2) |
 
-**Build**:
+## Issues
 
-```
-docker build --pull -t kirschbaumdevelopment/laravel-test-runner .
-```
-
-**Tag**:
-
-```
-docker tag kirschbaumdevelopment/laravel-test-runner:latest kirschbaumdevelopment/laravel-test-runner:6.0.1
-```
-
-**Push**:
-
-```
-docker push kirschbaumdevelopment/laravel-test-runner:latest
-docker push kirschbaumdevelopment/laravel-test-runner:6.0.1
-```
+If you have any issues running your tests with this container, please open an issue or send a pull request.
 
 ## Credits
 
@@ -35,4 +23,4 @@ Development of this package is sponsored by Kirschbaum Development Group, a deve
 
 ## License
 
-The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+The MIT License (MIT). Please see [License File](LICENSE) for more information.
