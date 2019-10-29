@@ -44,4 +44,3 @@ RUN npm install -g yarn
 
 # goss
 RUN curl -fsSL https://goss.rocks/install | GOSS_VER=v${GOSS_VERSION} sh
-COPY ./goss.yaml goss.yaml

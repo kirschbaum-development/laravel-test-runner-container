@@ -13,13 +13,13 @@ docker build --pull -t kirschbaumdevelopment/laravel-test-runner .
 **Tag**:
 
 ```
-docker tag kirschbaumdevelopment/laravel-test-runner:latest kirschbaumdevelopment/laravel-test-runner:7.2.x
+docker tag kirschbaumdevelopment/laravel-test-runner:latest kirschbaumdevelopment/laravel-test-runner:7.2.0
 ```
 
 **Push**:
 
 ```
-docker push kirschbaumdevelopment/laravel-test-runner:7.2.x
+docker push kirschbaumdevelopment/laravel-test-runner:7.2.0
 ```
 
 ## Credits
