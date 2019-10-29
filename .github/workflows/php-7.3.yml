@@ -1,10 +1,11 @@
 on: push
-name: CI
+name: php-7.3
 jobs:
-  phpunit:
+  validate:
     runs-on: ubuntu-latest
     container:
       image: kirschbaumdevelopment/laravel-test-runner:7.3.0
 
     steps:
+    - run: ls
     - run: goss validate
