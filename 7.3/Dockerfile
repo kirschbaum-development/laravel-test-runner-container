@@ -2,6 +2,8 @@ FROM ubuntu:18.04
 LABEL maintainer="Luis Dalmolin <luis@kirschbaumdevelopment.com>"
 ARG DEBIAN_FRONTEND=noninteractive
 
+ENV GOSS_VERSION="0.3.6"
+
 RUN apt-get update && apt-get install -y software-properties-common curl
 RUN LC_ALL=C.UTF-8 add-apt-repository -y ppa:ondrej/php
 RUN apt-get update -y
@@ -21,6 +23,9 @@ RUN apt-get install -y \
     php7.3-soap \
     php7.3-gmp \
     php7.3-bcmath \
+    php7.3-imagick \
+    php7.3-intl \
+    php7.3-imagick \
     php7.3-imap
 
 # composer
@@ -36,3 +41,6 @@ RUN apt-get install -y mysql-client
 RUN curl -sL https://deb.nodesource.com/setup_9.x | bash -
 RUN apt-get install -y nodejs
 RUN npm install -g yarn
+
+# goss
+RUN curl -fsSL https://goss.rocks/install | GOSS_VER=v${GOSS_VERSION} sh
