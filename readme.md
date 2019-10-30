@@ -1,6 +1,7 @@
 # Docker Container for running Laravel tests
 
 [![Docker Badge](https://img.shields.io/docker/pulls/kirschbaumdevelopment/laravel-test-runner)](https://hub.docker.com/r/kirschbaumdevelopment/laravel-test-runner/)
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://cloud.docker.com/u/kirschbaumdevelopment/repository/docker/kirschbaumdevelopment/laravel-test-runner)
 [![Actions Status](https://github.com/kirschbaum-development/laravel-test-runner-container/workflows/php-7.2/badge.svg)](https://github.com/kirschbaum-development/laravel-test-runner-container/actions)
 [![Actions Status](https://github.com/kirschbaum-development/laravel-test-runner-container/workflows/php-7.3/badge.svg)](https://github.com/kirschbaum-development/laravel-test-runner-container/actions)
 
