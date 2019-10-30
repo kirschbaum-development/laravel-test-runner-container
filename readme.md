@@ -2,15 +2,13 @@
 
 [![Docker Badge](https://img.shields.io/docker/pulls/kirschbaumdevelopment/laravel-test-runner)](https://hub.docker.com/r/kirschbaumdevelopment/laravel-test-runner/)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://cloud.docker.com/u/kirschbaumdevelopment/repository/docker/kirschbaumdevelopment/laravel-test-runner)
-[![Actions Status](https://github.com/kirschbaum-development/laravel-test-runner-container/workflows/php-7.2/badge.svg)](https://github.com/kirschbaum-development/laravel-test-runner-container/actions)
-[![Actions Status](https://github.com/kirschbaum-development/laravel-test-runner-container/workflows/php-7.3/badge.svg)](https://github.com/kirschbaum-development/laravel-test-runner-container/actions)
 
 This is a [docker container](https://cloud.docker.com/u/kirschbaumdevelopment/repository/docker/kirschbaumdevelopment/laravel-test-runner) for running Laravel tests in Github actions.
 
-| PHP version | Link |
-| ----------- | ---- |
-| 7.3 | [🔗](https://github.com/kirschbaum-development/laravel-test-runner-container/blob/master/7.3) |
-| 7.2 | [🔗](https://github.com/kirschbaum-development/laravel-test-runner-container/blob/master/7.2) |
+| PHP version | Link | Status |
+| ----------- | ---- | ------ |
+| 7.3 | [🔗](https://github.com/kirschbaum-development/laravel-test-runner-container/blob/master/7.3) | [![Actions Status](https://github.com/kirschbaum-development/laravel-test-runner-container/workflows/php-7.3/badge.svg)](https://github.com/kirschbaum-development/laravel-test-runner-container/actions) |
+| 7.2 | [🔗](https://github.com/kirschbaum-development/laravel-test-runner-container/blob/master/7.2) | [![Actions Status](https://github.com/kirschbaum-development/laravel-test-runner-container/workflows/php-7.2/badge.svg)](https://github.com/kirschbaum-development/laravel-test-runner-container/actions) |
 
 You may want to check [this blogpost](TODO) on how to use this container to run your Laravel tests with Github Actions.
 
