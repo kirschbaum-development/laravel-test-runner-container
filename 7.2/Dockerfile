@@ -37,6 +37,9 @@ RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local
 # mysql client
 RUN apt-get install -y mysql-client
 
+# git
+RUN apt-get install -y git
+
 # node and yarn
 RUN curl -sL https://deb.nodesource.com/setup_9.x | bash -
 RUN apt-get install -y nodejs

@@ -9,6 +9,8 @@ command:
     exit-status: 0
     stdout:
       - "6"
+  git --version:
+    exit-status: 0
   composer --version:
     exit-status: 0
   php --version:
