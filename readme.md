@@ -5,10 +5,11 @@
 
 This is a [docker container](https://cloud.docker.com/u/kirschbaumdevelopment/repository/docker/kirschbaumdevelopment/laravel-test-runner) for running Laravel tests in Github actions.
 
-| PHP version | Link | Status |
-| ----------- | ---- | ------ |
-| 7.3 | [🔗](https://github.com/kirschbaum-development/laravel-test-runner-container/blob/master/7.3) | [![Actions Status](https://github.com/kirschbaum-development/laravel-test-runner-container/workflows/php-7.3/badge.svg)](https://github.com/kirschbaum-development/laravel-test-runner-container/actions) |
-| 7.2 | [🔗](https://github.com/kirschbaum-development/laravel-test-runner-container/blob/master/7.2) | [![Actions Status](https://github.com/kirschbaum-development/laravel-test-runner-container/workflows/php-7.2/badge.svg)](https://github.com/kirschbaum-development/laravel-test-runner-container/actions) |
+| PHP version | Link | Status | Container Tag |
+| ----------- | ---- | ------ | ------------- |
+| 7.4 | [🔗](https://github.com/kirschbaum-development/laravel-test-runner-container/blob/master/7.4) | [![Actions Status](https://github.com/kirschbaum-development/laravel-test-runner-container/workflows/php-7.4/badge.svg)](https://github.com/kirschbaum-development/laravel-test-runner-container/actions) | kirschbaumdevelopment/laravel-test-runner:7.4.0 |
+| 7.3 | [🔗](https://github.com/kirschbaum-development/laravel-test-runner-container/blob/master/7.3) | [![Actions Status](https://github.com/kirschbaum-development/laravel-test-runner-container/workflows/php-7.3/badge.svg)](https://github.com/kirschbaum-development/laravel-test-runner-container/actions) | kirschbaumdevelopment/laravel-test-runner:7.3.0 |
+| 7.2 | [🔗](https://github.com/kirschbaum-development/laravel-test-runner-container/blob/master/7.2) | [![Actions Status](https://github.com/kirschbaum-development/laravel-test-runner-container/workflows/php-7.2/badge.svg)](https://github.com/kirschbaum-development/laravel-test-runner-container/actions) | kirschbaumdevelopment/laravel-test-runner:7.2.0 |
 
 You may want to check [this blog post](https://kirschbaumdevelopment.com/news-articles/using-github-actions-to-setup-ci-cd-with-laravel-and-mysql) on how to use this container to run your Laravel tests with Github Actions.
 
