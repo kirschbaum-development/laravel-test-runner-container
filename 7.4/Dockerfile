@@ -35,7 +35,7 @@ ENV COMPOSER_ALLOW_SUPERUSER=1
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 
 # Install hirak/prestissimo package
-composer global require hirak/prestissimo
+RUN composer global require hirak/prestissimo
 
 # mysql client
 RUN apt-get install -y mysql-client
