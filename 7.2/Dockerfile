@@ -5,7 +5,7 @@ ARG DEBIAN_FRONTEND=noninteractive
 ENV GOSS_VERSION="0.3.6"
 
 RUN apt-get update && apt-get install -y software-properties-common curl
-RUN LC_ALL=C.UTF-8 add-apt-repository -y ppa:ondrej/php
+RUN add-apt-repository ppa:ondrej/php -y
 RUN apt-get update -y
 RUN apt-get install -y \
     unzip  \
