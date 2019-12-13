@@ -8,6 +8,7 @@ RUN apt-get update && apt-get install -y software-properties-common curl
 RUN LC_ALL=C.UTF-8 add-apt-repository -y ppa:ondrej/php
 RUN apt-get update -y
 RUN apt-get install -y \
+    unzip  \
     php7.2-cli \
     php7.2-gd \
     php7.2-json \
@@ -33,6 +34,9 @@ ENV COMPOSER_HOME=/composer
 ENV PATH=./vendor/bin:/composer/vendor/bin:/root/.yarn/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 ENV COMPOSER_ALLOW_SUPERUSER=1
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
+
+# Install hirak/prestissimo package
+RUN composer global require hirak/prestissimo
 
 # mysql client
 RUN apt-get install -y mysql-client
