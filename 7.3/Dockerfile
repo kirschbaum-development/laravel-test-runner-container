@@ -8,6 +8,7 @@ RUN apt-get update && apt-get install -y software-properties-common curl
 RUN LC_ALL=C.UTF-8 add-apt-repository -y ppa:ondrej/php
 RUN apt-get update -y
 RUN apt-get install -y \
+    unzip  \
     php7.3-cli \
     php7.3-gd \
     php7.3-json \
