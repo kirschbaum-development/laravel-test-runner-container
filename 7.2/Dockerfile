@@ -27,6 +27,7 @@ RUN apt-get install -y \
     php7.2-imagick \
     php7.2-intl \
     php7.2-imagick \
+    php7.2-redis \
     php7.2-imap
 
 # composer
