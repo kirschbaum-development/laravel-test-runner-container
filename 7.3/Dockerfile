@@ -47,6 +47,7 @@ RUN apt-get install -y git
 
 # node and yarn
 RUN curl -sL https://deb.nodesource.com/setup_9.x | bash -
+RUN apt-get install libpng-dev -y --no-install-recommends
 RUN apt-get install -y nodejs
 RUN npm install -g yarn
 
