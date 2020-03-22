@@ -1,10 +1,11 @@
-on: push
-name: php-7.4
+name: php-7.3-publish
+on:
+  push:
+    branches:
+      - master
 jobs:
-  validate:
+  publish:
     runs-on: ubuntu-latest
-    container:
-      image: kirschbaumdevelopment/laravel-test-runner:7.4.0
 
     steps:
     - uses: actions/checkout@v1
@@ -15,7 +16,5 @@ jobs:
         name: kirschbaumdevelopment/laravel-test-runner
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
-        workdir: 7.4
-        tags: "7.4"
-
-    - run: goss --gossfile 7.4/goss.yaml validate
+        workdir: 7.3
+        tags: "7.3"

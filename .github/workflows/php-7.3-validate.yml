@@ -1,10 +1,10 @@
 on: push
-name: php-7.3
+name: php-7.3-validate
 jobs:
   validate:
     runs-on: ubuntu-latest
     container:
-      image: kirschbaumdevelopment/laravel-test-runner:7.3.0
+      image: kirschbaumdevelopment/laravel-test-runner:7.3
 
     steps:
     - uses: actions/checkout@v1
