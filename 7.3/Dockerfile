@@ -26,7 +26,6 @@ RUN apt-get install -y \
     php7.3-bcmath \
     php7.3-imagick \
     php7.3-intl \
-    php7.3-imagick \
     php7.3-redis \
     php7.3-imap
 
