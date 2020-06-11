@@ -27,7 +27,8 @@ RUN apt-get install -y \
     php7.4-imagick \
     php7.4-intl \
     php7.4-redis \
-    php7.4-imap
+    php7.4-imap \
+    php7.4-phpdbg
 
 # composer
 ENV COMPOSER_HOME=/composer
