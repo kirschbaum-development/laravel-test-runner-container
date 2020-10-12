@@ -6,6 +6,7 @@ ENV GOSS_VERSION="0.3.6"
 
 RUN apt-get update && apt-get install -y software-properties-common curl
 RUN add-apt-repository ppa:ondrej/php -y
+RUN add-apt-repository ppa:git-core/ppa -y
 RUN apt-get update -y
 RUN apt-get install -y \
     unzip  \
