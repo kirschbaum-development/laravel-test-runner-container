@@ -9,7 +9,7 @@ RUN add-apt-repository ppa:ondrej/php -y
 RUN add-apt-repository ppa:git-core/ppa -y
 RUN apt-get update -y
 RUN apt-get install -y \
-    unzip  \
+    unzip \
     php8.0-cli \
     php8.0-gd \
     php8.0-ldap \
