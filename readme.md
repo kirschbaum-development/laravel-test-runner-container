@@ -1,3 +1,5 @@
+![Laravel Test Runner Container](banner.jpg "Laravel Test Runner Container")
+
 # Docker Container for running Laravel tests
 
 [![Docker Badge](https://img.shields.io/docker/pulls/kirschbaumdevelopment/laravel-test-runner)](https://hub.docker.com/r/kirschbaumdevelopment/laravel-test-runner/)
