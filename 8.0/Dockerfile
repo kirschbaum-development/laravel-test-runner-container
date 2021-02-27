@@ -34,9 +34,6 @@ ENV PATH=./vendor/bin:/composer/vendor/bin:/root/.yarn/bin:/usr/local/sbin:/usr/
 ENV COMPOSER_ALLOW_SUPERUSER=1
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 
-# Install hirak/prestissimo package
-RUN composer global require hirak/prestissimo
-
 # mysql client
 RUN apt-get install -y mysql-client
 
