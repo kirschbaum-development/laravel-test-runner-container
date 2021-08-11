@@ -7,13 +7,13 @@ Docker Container with PHP and extensions to be compatible with most Laravel appl
 **Build**:
 
 ```
-docker build -t pfizer/canvas-test-runner .
+docker build -t kirschbaumdevelopment/laravel-test-runner .
 ```
 
 **Tag**:
 
 ```
-docker tag pfizer/canvas-test-runner:latest pfizer/canvas-test-runner:7.4
+docker tag kirschbaumdevelopment/laravel-test-runner:latest kirschbaumdevelopment/laravel-test-runner:7.4
 ```
 
 **Login**
@@ -25,7 +25,7 @@ docker login --username=yourhubusername --email=youremail@provider.com
 **Push**:
 
 ```
-docker push pfizer/canvas-test-runner:7.4
+docker push kirschbaumdevelopment/laravel-test-runner:7.4
 ```
 
 ## Credits
