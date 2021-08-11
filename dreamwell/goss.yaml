@@ -1,0 +1,42 @@
+command:
+  node --version:
+    exit-status: 0
+    stdout:
+      - "v12"
+  yarn --version:
+    exit-status: 0
+  npm --version:
+    exit-status: 0
+    stdout:
+      - "6"
+  git --version:
+    exit-status: 0
+  composer --version:
+    exit-status: 0
+  php --version:
+    exit-status: 0
+    stdout:
+      - 7
+  php -m:
+    exit-status: 0
+    stdout:
+      - bcmath
+      - calendar
+      - exif
+      - gd
+      - iconv
+      - imagick
+      - imap
+      - intl
+      - ldap
+      - mbstring
+      - mysqli
+      - pcntl
+      - pdo_mysql
+      - pdo_pgsql
+      - pgsql
+      - soap
+      - xml
+      - zip
+      - mongodb
+      - couchbase
