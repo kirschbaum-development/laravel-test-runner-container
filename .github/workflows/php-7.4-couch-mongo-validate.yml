@@ -1,0 +1,11 @@
+on: push
+name: php-7.4-validate
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    container:
+      image: kirschbaumdevelopment/laravel-test-runner:7.4-couch-mongo
+
+    steps:
+    - uses: actions/checkout@v1
+    - run: goss --gossfile 7.4/goss.yaml validate
