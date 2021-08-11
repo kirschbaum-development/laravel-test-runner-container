@@ -13,7 +13,7 @@ docker build -t kirschbaumdevelopment/laravel-test-runner .
 **Tag**:
 
 ```
-docker tag kirschbaumdevelopment/laravel-test-runner:latest kirschbaumdevelopment/laravel-test-runner:7.4
+docker tag kirschbaumdevelopment/laravel-test-runner:latest kirschbaumdevelopment/laravel-test-runner:7.4-couch-mongo
 ```
 
 **Login**
@@ -25,7 +25,7 @@ docker login --username=yourhubusername --email=youremail@provider.com
 **Push**:
 
 ```
-docker push kirschbaumdevelopment/laravel-test-runner:7.4
+docker push kirschbaumdevelopment/laravel-test-runner:7.4-couch-mongo
 ```
 
 ## Credits
