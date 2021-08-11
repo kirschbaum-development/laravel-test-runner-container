@@ -1,5 +1,5 @@
 on: push
-name: php-7.4-validate
+name: php-7.4-couch-mongo-validate
 jobs:
   validate:
     runs-on: ubuntu-latest
@@ -8,4 +8,4 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
-    - run: goss --gossfile 7.4/goss.yaml validate
+    - run: goss --gossfile 7.4-couch-mongo/goss.yaml validate

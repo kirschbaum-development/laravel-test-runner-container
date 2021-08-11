@@ -1,4 +1,4 @@
-name: php-7.4-publish
+name: php-7.4-couch-mongo-publish
 on:
   push:
     branches:
