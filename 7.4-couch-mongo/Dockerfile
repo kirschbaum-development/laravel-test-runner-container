@@ -11,9 +11,7 @@ RUN apt-get install -y libcouchbase3 libcouchbase-dev libcouchbase3-tools libcou
 RUN apt-get install -y php-pear php7.4-dev php7.4-xml
 
 ## MongoDB
-## Dreamwell need mongodb > 1.6
 RUN pecl install mongodb-1.10.0alpha1
 
 ## Couchbase
-## Dreamwell need couchbase > 3.0
 RUN pecl install couchbase-3.2.0
