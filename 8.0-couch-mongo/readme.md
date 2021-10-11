@@ -7,7 +7,7 @@ Docker Container with PHP and extensions to be compatible with most Laravel appl
 **Build**:
 
 ```
-docker build -t kirschbaumdevelopment/laravel-test-runner .
+docker build --pull -t kirschbaumdevelopment/laravel-test-runner .
 ```
 
 **Tag**:
