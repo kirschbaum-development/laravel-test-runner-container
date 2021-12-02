@@ -1,0 +1,11 @@
+on: push
+name: php-8.1-validate
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    container:
+      image: kirschbaumdevelopment/laravel-test-runner:8.1
+
+    steps:
+    - uses: actions/checkout@v1
+    - run: goss --gossfile 8.1/goss.yaml validat1
