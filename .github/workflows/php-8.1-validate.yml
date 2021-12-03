@@ -8,4 +8,4 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
-    - run: goss --gossfile 8.1/goss.yaml validat1
+    - run: goss --gossfile 8.1/goss.yaml validate
