@@ -26,7 +26,8 @@ RUN apt-get install -y \
     php8.1-bcmath \
     php8.1-intl \
     php8.1-imap \
-    php8.1-phpdbg
+    php8.1-phpdbg \
+    php8.1-redis
 
 # composer
 ENV COMPOSER_HOME=/composer
