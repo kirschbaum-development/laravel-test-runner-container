@@ -11,7 +11,7 @@ RUN apt-get install -y libcouchbase3 libcouchbase-dev
 RUN apt-get install -y php-pear php8.0-dev php8.0-xml
 
 ## MongoDB
-RUN pecl install mongodb-1.10.0alpha1
+RUN pecl install mongodb-1.12.0
 RUN echo "extension=mongodb.so" | tee -a /etc/php/8.0/cli/conf.d/20-mongodb.ini
 
 
