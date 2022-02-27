@@ -27,6 +27,7 @@ RUN apt-get install -y \
     php8.1-intl \
     php8.1-imap \
     php8.1-phpdbg \
+    php8.1-bz2 \
     php8.1-redis
 
 # composer
