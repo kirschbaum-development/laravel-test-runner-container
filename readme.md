@@ -18,6 +18,21 @@ This is a [docker container](https://cloud.docker.com/u/kirschbaumdevelopment/re
 
 You may want to check [this blog post](https://kirschbaumdevelopment.com/news-articles/using-github-actions-to-setup-ci-cd-with-laravel-and-mysql) on how to use this container to run your Laravel tests with Github Actions.
 
+## Custom extensions
+
+In case you need any custom extensions, the container is running Ubuntu, so you can simply install them:
+
+```bash
+apt-get install -y php8.1-bz2
+```
+
+Example on Github actions:
+
+```yaml
+-   name: Install additional PHP extensions
+    run: apt-get install -y php8.1-bz2 php8.1-soap
+```
+
 ## Issues
 
 If you have any issues running your tests with this container, please open an issue or send a pull request.
