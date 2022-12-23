@@ -1,4 +1,4 @@
-name: php-8.1-couch-mongo-publish
+name: php-8.2-couch-mongo-publish
 on:
   push:
     branches:
@@ -16,5 +16,5 @@ jobs:
         name: kirschbaumdevelopment/laravel-test-runner
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
-        workdir: 8.1-couch-mongo
-        tags: "8.1-couch-mongo"
+        workdir: 8.2-couch-mongo
+        tags: "8.2-couch-mongo"
