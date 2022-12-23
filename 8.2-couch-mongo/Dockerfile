@@ -16,9 +16,9 @@ RUN ln -s /usr/bin/php8.2 /etc/alternatives/php
 
 ## MongoDB
 RUN pecl install mongodb-1.13.0
-RUN echo "extension=mongodb.so" | tee -a /etc/php/8.1/cli/conf.d/20-mongodb.ini
+RUN echo "extension=mongodb.so" | tee -a /etc/php/8.2/cli/conf.d/20-mongodb.ini
 
 
 ## Couchbase
 RUN pecl install couchbase-3.2.0
-RUN echo "extension=couchbase.so" | tee -a /etc/php/8.1/cli/conf.d/30-couchbase.ini
+RUN echo "extension=couchbase.so" | tee -a /etc/php/8.2/cli/conf.d/30-couchbase.ini
