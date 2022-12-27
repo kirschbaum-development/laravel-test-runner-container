@@ -8,7 +8,7 @@ command:
   npm --version:
     exit-status: 0
     stdout:
-      - "6"
+      - "8"
   git --version:
     exit-status: 0
   composer --version:
