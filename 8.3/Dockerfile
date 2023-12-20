@@ -3,7 +3,7 @@ LABEL maintainer="Luis Dalmolin <luis@kirschbaumdevelopment.com>"
 ARG DEBIAN_FRONTEND=noninteractive
 
 ENV PHP_VERSION="8.3"
-ENV GOSS_VERSION="0.3.6"
+ENV GOSS_VERSION="0.4.4"
 
 RUN apt-get update && apt-get install -y software-properties-common curl
 RUN add-apt-repository ppa:ondrej/php -y
