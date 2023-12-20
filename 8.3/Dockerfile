@@ -2,6 +2,7 @@ FROM ubuntu:20.04
 LABEL maintainer="Luis Dalmolin <luis@kirschbaumdevelopment.com>"
 ARG DEBIAN_FRONTEND=noninteractive
 
+ENV PHP_VERSION="8.3"
 ENV GOSS_VERSION="0.3.6"
 
 RUN apt-get update && apt-get install -y software-properties-common curl
@@ -10,25 +11,25 @@ RUN add-apt-repository ppa:git-core/ppa -y
 RUN apt-get update -y
 RUN apt-get install -y \
     unzip \
-    php8.3-cli \
-    php8.3-gd \
-    php8.3-ldap \
-    php8.3-mbstring \
-    php8.3-mysql \
-    php8.3-pgsql \
-    php8.3-sqlite3 \
-    php8.3-xml \
-    php8.3-xsl \
-    php8.3-zip \
-    php8.3-curl \
-    php8.3-soap \
-    php8.3-gmp \
-    php8.3-bcmath \
-    php8.3-intl \
-    php8.3-imap \
-    php8.3-phpdbg \
-    php8.3-bz2 \
-    php8.3-redis
+    php${PHP_VERSION}-cli \
+    php${PHP_VERSION}-gd \
+    php${PHP_VERSION}-ldap \
+    php${PHP_VERSION}-mbstring \
+    php${PHP_VERSION}-mysql \
+    php${PHP_VERSION}-pgsql \
+    php${PHP_VERSION}-sqlite3 \
+    php${PHP_VERSION}-xml \
+    php${PHP_VERSION}-xsl \
+    php${PHP_VERSION}-zip \
+    php${PHP_VERSION}-curl \
+    php${PHP_VERSION}-soap \
+    php${PHP_VERSION}-gmp \
+    php${PHP_VERSION}-bcmath \
+    php${PHP_VERSION}-intl \
+    php${PHP_VERSION}-imap \
+    php${PHP_VERSION}-phpdbg \
+    php${PHP_VERSION}-bz2 \
+    php${PHP_VERSION}-redis
 
 # composer
 ENV COMPOSER_HOME=/composer
