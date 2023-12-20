@@ -2,13 +2,13 @@ command:
   node --version:
     exit-status: 0
     stdout:
-      - "v16"
+      - "v20"
   yarn --version:
     exit-status: 0
   npm --version:
     exit-status: 0
     stdout:
-      - "8"
+      - "10"
   git --version:
     exit-status: 0
   composer --version:
