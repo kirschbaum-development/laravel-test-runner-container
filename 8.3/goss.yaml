@@ -1,0 +1,39 @@
+command:
+  node --version:
+    exit-status: 0
+    stdout:
+      - "v20"
+  yarn --version:
+    exit-status: 0
+  npm --version:
+    exit-status: 0
+    stdout:
+      - "10"
+  git --version:
+    exit-status: 0
+  composer --version:
+    exit-status: 0
+  php --version:
+    exit-status: 0
+    stdout:
+      - 8.3
+  php -m:
+    exit-status: 0
+    stdout:
+      - bcmath
+      - calendar
+      - exif
+      - gd
+      - iconv
+      - imap
+      - intl
+      - ldap
+      - mbstring
+      - mysqli
+      - pcntl
+      - pdo_mysql
+      - pdo_pgsql
+      - pgsql
+      - soap
+      - xml
+      - zip
