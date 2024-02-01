@@ -28,7 +28,7 @@ jobs:
       id: docker_build
       uses: docker/build-push-action@v4
       with:
-        context: .
+        context: 8.3
         push: true
         provenance: false
         platforms: linux/amd64,linux/arm64
