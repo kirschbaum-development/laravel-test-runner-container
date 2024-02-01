@@ -16,7 +16,7 @@ command:
   php --version:
     exit-status: 0
     stdout:
-      - 8.3
+      - "8.3"
   php -m:
     exit-status: 0
     stdout:
