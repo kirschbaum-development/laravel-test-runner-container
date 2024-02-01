@@ -16,3 +16,13 @@ jobs:
         version: 8.3
         docker-username: ${{ secrets.DOCKER_USERNAME }}
         docker-password: ${{ secrets.DOCKER_TOKEN }}
+  
+  validate:
+    runs-on: ubuntu-latest
+    needs: publish
+    container:
+      image: kirschbaumdevelopment/laravel-test-runner:8.3
+
+    steps:
+    - uses: actions/checkout@v1
+    - run: goss --gossfile 8.3/goss.yaml validate
