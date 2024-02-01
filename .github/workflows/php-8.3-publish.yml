@@ -10,7 +10,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-    - uses: ./.github/actions/build-beanstalk-artifact
+    - uses: ./.github/actions/docker-publish
       name: Build and Publish (8.3)
       with:
         version: 8.3
