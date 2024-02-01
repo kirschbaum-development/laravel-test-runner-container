@@ -18,3 +18,4 @@ jobs:
         password: ${{ secrets.DOCKER_PASSWORD }}
         workdir: 8.1
         tags: "8.1"
+        platforms: linux/amd64,linux/arm64
