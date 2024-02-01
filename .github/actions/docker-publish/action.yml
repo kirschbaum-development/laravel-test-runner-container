@@ -37,4 +37,4 @@ runs:
         push: true
         provenance: false
         platforms: linux/amd64,linux/arm64
-        tags: kirschbaum-development/laravel-test-runner:${{ inputs.version }}
+        tags: kirschbaumdevelopment/laravel-test-runner:${{ inputs.version }}
