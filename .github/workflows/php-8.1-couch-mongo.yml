@@ -1,8 +1,8 @@
 name: php-8.1-couch-mongo-publish
 on:
-  push:
-    branches:
-      - master
+  release:
+    types: [published]
+    
 jobs:
   publish:
     runs-on: ubuntu-latest
