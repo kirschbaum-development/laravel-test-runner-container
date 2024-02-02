@@ -28,5 +28,5 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: |
-        curl -fsSL https://goss.rocks/install | GOSS_VER=v${GOSS_VERSION} sh
-        goss --gossfile 8.1-couch-mongo/goss.yaml validate
+          curl -fsSL https://goss.rocks/install | GOSS_VER=v${GOSS_VERSION} sh
+          goss --gossfile 8.1-couch-mongo/goss.yaml validate
