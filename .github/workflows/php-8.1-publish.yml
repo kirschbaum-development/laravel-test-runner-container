@@ -1,8 +1,8 @@
 name: php-8.1-publish
 on:
-  push:
-    branches:
-      - multi-platform
+  release:
+    types: [published]
+    
 jobs:
   publish:
     runs-on: ubuntu-latest
