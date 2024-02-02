@@ -24,5 +24,7 @@ jobs:
       image: kirschbaumdevelopment/laravel-test-runner:8.1
 
     steps:
-    - uses: actions/checkout@v1
-    - run: goss --gossfile 8.1/goss.yaml validate
+    - uses: actions/checkout@v2
+    - run: |
+      curl -fsSL https://goss.rocks/install | GOSS_VER=v${GOSS_VERSION} sh
+      goss --gossfile 8.1/goss.yaml validate

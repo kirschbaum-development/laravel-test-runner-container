@@ -25,4 +25,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - run: goss --gossfile 8.3/goss.yaml validate
+    - run: |
+      curl -fsSL https://goss.rocks/install | GOSS_VER=v${GOSS_VERSION} sh
+      goss --gossfile 8.3/goss.yaml validate
