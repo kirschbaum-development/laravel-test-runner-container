@@ -1,6 +1,6 @@
-# Laravel Test Runner - PHP 8.3
+# Laravel Test Runner - PHP 8.4
 
-Docker Container with PHP 8.3 and extensions to be compatible with most Laravel applications. Also installed on this container we have Composer and NodeJS/NPM/Yarn.
+Docker Container with PHP 8.4 and extensions to be compatible with most Laravel applications. Also installed on this container we have Composer and NodeJS/NPM/Yarn.
 
 ## Building and pushing the image
 
@@ -13,13 +13,13 @@ docker build --pull -t kirschbaumdevelopment/laravel-test-runner .
 **Tag**:
 
 ```
-docker tag kirschbaumdevelopment/laravel-test-runner:latest kirschbaumdevelopment/laravel-test-runner:8.3
+docker tag kirschbaumdevelopment/laravel-test-runner:latest kirschbaumdevelopment/laravel-test-runner:8.4
 ```
 
 **Push**:
 
 ```
-docker push kirschbaumdevelopment/laravel-test-runner:8.3
+docker push kirschbaumdevelopment/laravel-test-runner:8.4
 ```
 
 ## Credits
