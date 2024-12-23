@@ -35,5 +35,6 @@ command:
       - pdo_pgsql
       - pgsql
       - soap
+      - xdebug
       - xml
       - zip

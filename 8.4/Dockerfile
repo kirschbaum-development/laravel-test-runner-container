@@ -30,6 +30,7 @@ RUN apt-get install -y \
     php${PHP_VERSION}-imap \
     php${PHP_VERSION}-phpdbg \
     php${PHP_VERSION}-bz2 \
+    php${PHP_VERSION}-xdebug \
     php${PHP_VERSION}-redis
 
 # composer

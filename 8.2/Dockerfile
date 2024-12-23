@@ -28,6 +28,7 @@ RUN apt-get install -y \
     php8.2-imap \
     php8.2-phpdbg \
     php8.2-bz2 \
+    php8.2-xdebug \
     php8.2-redis
 
 # composer
