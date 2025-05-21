@@ -1,0 +1,30 @@
+name: php-8.3-couch-mongo-publish
+on:
+  release:
+    types: [published]
+    
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - uses: ./.github/actions/docker-publish
+      name: Build and Publish (8.3)
+      with:
+        version: 8.3
+        docker-username: ${{ secrets.DOCKER_USERNAME }}
+        docker-password: ${{ secrets.DOCKER_TOKEN }}
+  
+  validate:
+    runs-on: ubuntu-latest
+    needs: publish
+    container:
+      image: kirschbaumdevelopment/laravel-test-runner:8.3-couch-mongo
+
+    steps:
+      - uses: actions/checkout@v2
+      - run: |
+          curl -fsSL https://goss.rocks/install | GOSS_VER=v${GOSS_VERSION} sh
+          goss --gossfile 8.3-couch-mongo/goss.yaml validate
