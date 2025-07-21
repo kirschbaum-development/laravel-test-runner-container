@@ -19,7 +19,7 @@ This is a [docker container](https://cloud.docker.com/u/kirschbaumdevelopment/re
 | 7.2 | [🔗](https://github.com/kirschbaum-development/laravel-test-runner-container/blob/master/7.2) | [![Actions Status](https://github.com/kirschbaum-development/laravel-test-runner-container/workflows/php-7.2-validate/badge.svg)](https://github.com/kirschbaum-development/laravel-test-runner-container/actions) | kirschbaumdevelopment/laravel-test-runner:7.2 |
 | 7.1 | [🔗](https://github.com/kirschbaum-development/laravel-test-runner-container/blob/master/7.1) | [![Actions Status](https://github.com/kirschbaum-development/laravel-test-runner-container/workflows/php-7.1-validate/badge.svg)](https://github.com/kirschbaum-development/laravel-test-runner-container/actions) | kirschbaumdevelopment/laravel-test-runner:7.1 |
 
-You may want to check [this blog post](https://kirschbaumdevelopment.com/news-articles/using-github-actions-to-setup-ci-cd-with-laravel-and-mysql) on how to use this container to run your Laravel tests with Github Actions.
+You may want to check [this blog post](https://kirschbaumdevelopment.com/insights/laravel-github-actions) on how to use this container to run your Laravel tests with Github Actions.
 
 ## Custom extensions
 
