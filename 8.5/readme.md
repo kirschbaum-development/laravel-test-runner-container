@@ -24,7 +24,7 @@ docker push kirschbaumdevelopment/laravel-test-runner:8.5
 
 ## Credits
 
-- [Pushpak Chhajed](https://github.com/pushpak1300)
+- [Tom Schuermans](https://github.com/tschuermans)
 
 ## Sponsorship
 
