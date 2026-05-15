@@ -1,6 +1,6 @@
 FROM kirschbaumdevelopment/laravel-test-runner:8.3
 
-ENV PHP_VERSION="8.4"
+ENV PHP_VERSION="8.3"
 ENV MONGODB_VERSION="2.0.0"
 ENV COUCHBASE_VERSION="3.2.2"
 

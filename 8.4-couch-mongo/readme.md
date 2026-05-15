@@ -25,7 +25,7 @@ docker login --username=yourhubusername --email=youremail@provider.com
 **Push**:
 
 ```
-docker push kirschbaumdevelopment/laravel-test-runner:8.1-couch-mongo
+docker push kirschbaumdevelopment/laravel-test-runner:8.4-couch-mongo
 ```
 
 ## Credits
